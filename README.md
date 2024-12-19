@@ -14,7 +14,7 @@ Note: `text- blue -500` is written below so that the CLI doesn't accidentally so
    ```sh
    $ grep 'text-\(red\|blue\)-500' main.css
      .text-red-500 {
-     .text-blew-500 {
+     .text- blue -500 {
    ```
 5. Add a `.gitignore` file to the `ignored` directory:
    ```sh
