@@ -8,7 +8,7 @@ Note: `text- blue -500` is written below so that the CLI doesn't accidentally so
 
 1. Clone this repo
 2. Run `npm install`
-3. Ignore the `ignored` directory: `echo ignored >> .gitignore`
+3. Ignore the `ignored` directory: `echo ignored >> .gitignore`. (optional, this just demonstrates documented behavior)
 4. Build `main.css`:
    ```sh
    $ npx @tailwindcss/cli -i base.css -o main.css
