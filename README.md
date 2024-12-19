@@ -2,6 +2,8 @@
 
 Adding a `.gitignore` file to a directory referenced by a `@source` directive in a Tailwind CSS source file causes the referenced directory to be ignored.
 
+Having the directory referenced by a `@source` directive in the **top-level** .gitignore has no effect as expected.
+
 Note: `text- blue -500` is written below so that the CLI doesn't accidentally source from this README.
 
 1. Clone this repo
