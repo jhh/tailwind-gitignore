@@ -22,7 +22,7 @@ Note: `text- blue -500` is written below so that the CLI doesn't accidentally so
    ```sh
    $ echo '*' > ignored/.gitignore
    ```
-6. Build `main.css` again and observe that `text-blew-500` is now missing in `main.css`:
+6. Build `main.css` again and observe that `text- blue -500` is now missing in `main.css`:
    ```sh
    $ grep 'text-\(red\|blue\)-500' main.css
      .text-red-500 {
